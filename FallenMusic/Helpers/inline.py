@@ -37,7 +37,12 @@ buttons = InlineKeyboardMarkup(
             InlineKeyboardButton(text="II", callback_data="pause_cb"),
             InlineKeyboardButton(text="‣‣I", callback_data="skip_cb"),
             InlineKeyboardButton(text="▢", callback_data="end_cb"),
-        ]
+        ],
+        [
+           InlineKeyboardButton(text="ᴀʙᴏᴜᴛ ᴍᴇ", url="t.me/mr_sukkun"),
+           InlineKeyboardButton(text="sᴜᴩᴩᴏʀᴛ ᴄʜᴀᴛ", url="t.me/worldwide_friend_zone"),
+         ]
+
     ]
 )
 
@@ -56,7 +61,7 @@ pm_buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="☁️ sᴏᴜʀᴄᴇ ☁️", url="https://github.com/TheAnonymous2005/FallenMusic"
+            text="☁️ sᴏᴜʀᴄᴇ ☁️", url="https://github.com/noob-Mukesh/MukeshMusic"
         ),
         InlineKeyboardButton(text="🥀 ᴅᴇᴠᴇʟᴏᴩᴇʀ 🥀", user_id=config.OWNER_ID),
     ],
@@ -76,7 +81,7 @@ gp_buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="☁️ sᴏᴜʀᴄᴇ ☁️", url="https://github.com/TheAnonymous2005/FallenMusic"
+            text="☁️ sᴏᴜʀᴄᴇ ☁️", url="https://github.com/noob-mukesh/mukeshMusic"
         ),
         InlineKeyboardButton(text="🥀 ᴅᴇᴠᴇʟᴏᴩᴇʀ 🥀", user_id=config.OWNER_ID),
     ],
